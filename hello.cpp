@@ -8,6 +8,8 @@ static SDL_Window *window = NULL;
 static SDL_Renderer *renderer = NULL;
 
 SDL_FRect rec;
+SDL_FRect slots[5];
+bool grabbed = false;
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 {
@@ -17,6 +19,20 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 
     rec.x = 10;
     rec.y = 10;
+
+    slots[0].x = 740;
+    slots[0].y = 10;
+    for (int i = 0; i < 5; i++)
+    {
+        slots[i].w = 50;
+        slots[i].h = 50;
+
+        if (i > 0)
+        {
+            slots[i].x = slots[i - 1].x - 10 - slots[0].w;
+            slots[i].y = 10;
+        }
+    }
 
     if (!SDL_CreateWindowAndRenderer("Hello World", 800, 600, SDL_WINDOW_RESIZABLE, &window, &renderer))
     {
@@ -51,23 +67,32 @@ SDL_AppResult SDL_AppIterate(void *appstate)
     float deltaTime = (currentTime - previousTime) / 1000.0f;
     previousTime = currentTime;
 
-    if (buttons & SDL_BUTTON_MASK(SDL_BUTTON_LEFT))
+    if (mouseX <= rec.x + rec.w && mouseX >= rec.x && mouseY <= rec.y + rec.h && mouseY >= rec.y && buttons)
     {
-        float speed = 500.0f; // Pixels per second (Constant Speed)
+        grabbed = true;
+    }
 
-        float dx = mouseX - rec.x;
-        float dy = mouseY - rec.y;
+    if (!buttons)
+        grabbed = false;
 
-        // Calculate distance
-        float distance = SDL_sqrtf(dx * dx + dy * dy);
-
-        // Only move if not already there (prevent division by zero)
-        if (distance > 0.0f)
+    if (!grabbed)
+    {
+        for (auto &slot : slots)
         {
-            // Normalize direction (-1 to 1) and multiply by constant speed & deltaTime
-            rec.x += (dx / distance) * speed * deltaTime;
-            rec.y += (dy / distance) * speed * deltaTime;
+            if (rec.x + rec.w >= slot.x && rec.y + rec.h >= slot.y && rec.x <= slot.x + slot.w && rec.y <= slot.y + slot.h)
+            {
+                rec.x = slot.x;
+                rec.y = slot.y;
+            }
         }
+    }
+
+    if (grabbed && buttons & SDL_BUTTON_MASK(SDL_BUTTON_LEFT))
+    {
+        float t = 1.0f * deltaTime;
+
+        rec.x = mouseX - rec.w / 2;
+        rec.y = mouseY - rec.h / 2;
     }
 
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
@@ -75,6 +100,9 @@ SDL_AppResult SDL_AppIterate(void *appstate)
 
     SDL_SetRenderDrawColor(renderer, 255, 0, 0, SDL_ALPHA_OPAQUE);
     SDL_RenderFillRect(renderer, &rec);
+
+    SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
+    SDL_RenderRects(renderer, slots, 5);
 
     SDL_RenderPresent(renderer);
 
