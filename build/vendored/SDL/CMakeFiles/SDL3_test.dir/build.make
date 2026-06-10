@@ -76,141 +76,141 @@ vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: vendored/SDL
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_assert.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_assert.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_assert.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_assert.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_assert.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_assert.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_assert.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_common.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_common.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_common.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_common.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_common.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_common.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_common.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_compare.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_compare.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_compare.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_compare.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_compare.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_compare.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_compare.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_crc32.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_crc32.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_crc32.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_crc32.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_crc32.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_crc32.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_crc32.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_font.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_font.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_font.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_font.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_font.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_font.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_font.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_fuzzer.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_fuzzer.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_fuzzer.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_fuzzer.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_fuzzer.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_fuzzer.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_fuzzer.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_harness.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_harness.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_harness.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_harness.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_harness.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_harness.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_harness.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_log.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_log.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_log.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_log.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_log.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_log.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_log.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_md5.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_md5.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_md5.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_md5.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_md5.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_md5.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_md5.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/flags.make
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/jahin/Game\ Development/vendored/SDL/src/test/SDL_test_memory.c
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: vendored/SDL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jahin/Game Development/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_memory.c"
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -c "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_memory.c"
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_memory.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_memory.c" > CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i
 
 vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s"
-	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_memory.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s
+	cd "/home/jahin/Game Development/build/vendored/SDL" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/jahin/Game Development/vendored/SDL/src/test/SDL_test_memory.c" -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s
 
 # Object files for target SDL3_test
 SDL3_test_OBJECTS = \

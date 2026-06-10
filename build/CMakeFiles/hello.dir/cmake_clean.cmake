@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hello.dir/link.d"
   "CMakeFiles/hello.dir/hello.cpp.o"
   "CMakeFiles/hello.dir/hello.cpp.o.d"
-  "Debug/hello"
-  "Debug/hello.pdb"
+  "hello"
+  "hello.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

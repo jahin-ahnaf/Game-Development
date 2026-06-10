@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jahin/Game Development/hello.cpp" "CMakeFiles/hello.dir/hello.cpp.o" "gcc" "CMakeFiles/hello.dir/hello.cpp.o.d"
-  "" "Debug/hello" "gcc" "CMakeFiles/hello.dir/link.d"
+  "" "hello" "gcc" "CMakeFiles/hello.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
