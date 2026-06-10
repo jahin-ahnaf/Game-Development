@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/hello.dir/link.d CMakeFiles/hello.dir/hello.cpp.o -o Debug/hello  -Wl,-rpath,"/home/jahin/Game Development/build/Debug" Debug/libSDL3.so.0.5.0

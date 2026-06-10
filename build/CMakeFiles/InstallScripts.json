@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jahin/Game Development/build/cmake_install.cmake",
+		"/home/jahin/Game Development/build/vendored/SDL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

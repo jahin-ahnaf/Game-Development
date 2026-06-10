@@ -1,0 +1,2477 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/SDL.c",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_assert.c",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_error.c",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_guid.c",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_hashtable.c",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_hints.c",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_list.c",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_log.c",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_properties.c",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_utils.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_assert_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_error_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_hashtable.h",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_hints_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_internal.h",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_list.h",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_log_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_menu.h",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_properties_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/SDL_utils_c.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/atomic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/atomic/SDL_atomic.c",
+				"/home/jahin/Game Development/vendored/SDL/src/atomic/SDL_spinlock.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/atomic/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/audio/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audio.c",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audiocvt.c",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audiodev.c",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audioqueue.c",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audioresample.c",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audiotypecvt.c",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_mixer.c",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_wave.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/audio/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audio_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audio_channel_converters.h",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audiodev_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audioqueue.h",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_audioresample.h",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_sysaudio.h",
+				"/home/jahin/Game Development/vendored/SDL/src/audio/SDL_wave.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/audio/disk/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/audio/disk/SDL_diskaudio.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/audio/disk/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/audio/disk/SDL_diskaudio.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/audio/dummy/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/audio/dummy/SDL_dummyaudio.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/audio/dummy/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/audio/dummy/SDL_dummyaudio.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/camera/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/camera/SDL_camera.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/camera/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/camera/SDL_camera_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/camera/SDL_syscamera.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/camera/dummy/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/camera/dummy/SDL_camera_dummy.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/camera/dummy/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/camera/v4l2/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/camera/v4l2/SDL_camera_v4l2.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/camera/v4l2/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/core/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/core/SDL_core_unsupported.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/core/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/core/SDL_core_unsupported.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/core/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/core/unix/SDL_appid.c",
+				"/home/jahin/Game Development/vendored/SDL/src/core/unix/SDL_fribidi.c",
+				"/home/jahin/Game Development/vendored/SDL/src/core/unix/SDL_libthai.c",
+				"/home/jahin/Game Development/vendored/SDL/src/core/unix/SDL_poll.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/core/unix/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/core/unix/SDL_appid.h",
+				"/home/jahin/Game Development/vendored/SDL/src/core/unix/SDL_fribidi.h",
+				"/home/jahin/Game Development/vendored/SDL/src/core/unix/SDL_libthai.h",
+				"/home/jahin/Game Development/vendored/SDL/src/core/unix/SDL_poll.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/cpuinfo/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/cpuinfo/SDL_cpuinfo.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/cpuinfo/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/dynapi/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/dynapi/SDL_dynapi.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/dynapi/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/dynapi/SDL_dynapi.h",
+				"/home/jahin/Game Development/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h",
+				"/home/jahin/Game Development/vendored/SDL/src/dynapi/SDL_dynapi_procs.h",
+				"/home/jahin/Game Development/vendored/SDL/src/dynapi/SDL_dynapi_unsupported.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/events/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_categories.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_clipboardevents.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_displayevents.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_dropevents.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_events.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_eventwatch.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_keyboard.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_keymap.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_keysym_to_keycode.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_keysym_to_scancode.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_mouse.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_pen.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_quit.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_scancode_tables.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_touch.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_windowevents.c",
+				"/home/jahin/Game Development/vendored/SDL/src/events/imKStoUCS.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/events/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_categories_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_clipboardevents_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_displayevents_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_dropevents_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_events_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_eventwatch_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_keyboard_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_keymap_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_keysym_to_keycode_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_keysym_to_scancode_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_mouse_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_pen_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_scancode_tables_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_touch_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/SDL_windowevents_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/blank_cursor.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/default_cursor.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/imKStoUCS.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/scancodes_darwin.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/scancodes_linux.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/scancodes_windows.h",
+				"/home/jahin/Game Development/vendored/SDL/src/events/scancodes_xfree86.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/filesystem/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/filesystem/SDL_filesystem.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/filesystem/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/filesystem/SDL_filesystem_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/filesystem/SDL_sysfilesystem.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/filesystem/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/filesystem/unix/SDL_sysfilesystem.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/gpu/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/SDL_gpu.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/gpu/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/SDL_sysgpu.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/gpu/vulkan/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/gpu/vulkan/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/gpu/xr/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/xr/SDL_gpu_openxr.c",
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/xr/SDL_openxrdyn.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/gpu/xr/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/xr/SDL_gpu_openxr.h",
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/xr/SDL_openxr_internal.h",
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/xr/SDL_openxrdyn.h",
+				"/home/jahin/Game Development/vendored/SDL/src/gpu/xr/SDL_openxrsym.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/haptic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/haptic/SDL_haptic.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/haptic/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/haptic/SDL_haptic_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/haptic/SDL_syshaptic.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/haptic/hidapi/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.c",
+				"/home/jahin/Game Development/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/haptic/linux/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/haptic/linux/SDL_syshaptic.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/haptic/linux/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/hidapi/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/hidapi/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi_android.h",
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi_ios.h",
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi_libusb.h",
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi_linux.h",
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi_mac.h",
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi_netbsd.h",
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi_steamxbox.h",
+				"/home/jahin/Game Development/vendored/SDL/src/hidapi/SDL_hidapi_windows.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/io/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/io/SDL_asyncio.c",
+				"/home/jahin/Game Development/vendored/SDL/src/io/SDL_iostream.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/io/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/io/SDL_asyncio_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/io/SDL_iostream_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/io/SDL_sysasyncio.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/io/generic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/io/generic/SDL_asyncio_generic.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/io/generic/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/joystick/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/SDL_gamepad.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/SDL_joystick.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/controller_type.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/joystick/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/SDL_gamepad_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/SDL_gamepad_db.h",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/SDL_joystick_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/SDL_sysjoystick.h",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/controller_list.h",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/controller_type.h",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/usb_ids.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_8bitdo.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_combined.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamesir.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gip.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_lg4ff.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_luna.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps3.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps4.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps5.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_shield.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_triton.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_wii.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick.c",
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/joystick/linux/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/linux/SDL_sysjoystick.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/joystick/linux/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/linux/SDL_sysjoystick_c.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/joystick/virtual/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/joystick/virtual/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/loadso/dlopen/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/loadso/dlopen/SDL_sysloadso.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/loadso/dlopen/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/locale/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/locale/SDL_locale.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/locale/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/locale/SDL_syslocale.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/locale/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/locale/unix/SDL_syslocale.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/main/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/main/SDL_main_callbacks.c",
+				"/home/jahin/Game Development/vendored/SDL/src/main/SDL_runapp.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/main/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/main/SDL_main_callbacks.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/main/generic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/main/generic/SDL_sysmain_callbacks.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/main/generic/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/misc/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/misc/SDL_libusb.c",
+				"/home/jahin/Game Development/vendored/SDL/src/misc/SDL_url.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/misc/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/misc/SDL_libusb.h",
+				"/home/jahin/Game Development/vendored/SDL/src/misc/SDL_sysurl.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/misc/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/misc/unix/SDL_sysurl.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/power/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/power/SDL_power.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/power/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/power/SDL_syspower.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/power/linux/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/power/linux/SDL_syspower.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/process/posix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/process/posix/SDL_posixprocess.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/process/posix/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/render/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/render/SDL_render.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/SDL_render_unsupported.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/SDL_yuv_sw.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/render/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/render/SDL_d3dmath.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/SDL_render_debug_font.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/SDL_sysrender.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/SDL_yuv_sw_c.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/render/*/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d/SDL_render_d3d.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d11/SDL_render_d3d11.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/SDL_render_d3d12.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/gpu/SDL_render_gpu.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/gpu/SDL_shaders_gpu.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/ngage/SDL_render_ngage.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengl/SDL_render_gl.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengl/SDL_shaders_gl.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengles/SDL_render_gles.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengles2/SDL_render_gles2.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/ps2/SDL_render_ps2.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/psp/SDL_render_psp.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_blendfillrect.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_blendline.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_blendpoint.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_drawline.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_drawpoint.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_render_sw.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_triangle.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vulkan/SDL_render_vulkan.c",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/render/*/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Linear.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Nearest.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d/D3D9_PixelShader_YUV.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Advanced.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Colors.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Textures.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d11/D3D11_VertexShader.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Advanced.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Colors.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Textures.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Advanced.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Color.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Texture.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Advanced.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Color.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Texture.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/SDL_render_d3d12_xbox.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/gpu/SDL_gpu_util.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/gpu/SDL_shaders_gpu.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/metal/SDL_shaders_metal_ios.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/metal/SDL_shaders_metal_iphonesimulator.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/metal/SDL_shaders_metal_macos.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/metal/SDL_shaders_metal_tvos.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/metal/SDL_shaders_metal_tvsimulator.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/ngage/SDL_render_ngage_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengl/SDL_glfuncs.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengl/SDL_shaders_gl.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengles/SDL_glesfuncs.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengles2/SDL_gles2funcs.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/psp/SDL_render_psp_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_blendfillrect.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_blendline.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_blendpoint.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_draw.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_drawline.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_drawpoint.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_render_sw_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/software/SDL_triangle.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_shaders.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_types.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Advanced.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Colors.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Textures.h",
+				"/home/jahin/Game Development/vendored/SDL/src/render/vulkan/VULKAN_VertexShader.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/sensor/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/sensor/SDL_sensor.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/sensor/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/sensor/SDL_sensor_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/sensor/SDL_syssensor.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/sensor/dummy/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/sensor/dummy/SDL_dummysensor.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/sensor/dummy/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/sensor/dummy/SDL_dummysensor.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/stdlib/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_crc16.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_crc32.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_getenv.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_iconv.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_malloc.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_memcpy.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_memmove.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_memset.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_mslibc.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_murmur3.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_qsort.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_random.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_stdlib.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_string.c",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_strtokr.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/stdlib/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_casefolding.h",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_getenv_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_sysstdlib.h",
+				"/home/jahin/Game Development/vendored/SDL/src/stdlib/SDL_vacopy.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/storage/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/storage/SDL_storage.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/storage/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/storage/SDL_sysstorage.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/storage/generic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/storage/generic/SDL_genericstorage.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/storage/steam/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/storage/steam/SDL_steamstorage.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/storage/steam/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/storage/steam/SDL_steamstorage_proc.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/thread/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/thread/SDL_thread.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/thread/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/thread/SDL_systhread.h",
+				"/home/jahin/Game Development/vendored/SDL/src/thread/SDL_thread_c.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/time/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/time/SDL_time.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/time/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/time/SDL_time_c.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/time/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/time/unix/SDL_systime.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/timer/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/timer/SDL_timer.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/timer/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/timer/SDL_timer_c.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/timer/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/timer/unix/SDL_systimer.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/tray/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/tray/SDL_tray_utils.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/tray/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/tray/unix/SDL_dbustray.c",
+				"/home/jahin/Game Development/vendored/SDL/src/tray/unix/SDL_tray.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/tray/unix/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/tray/unix/SDL_unixtray.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/video/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_RLEaccel.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_0.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_1.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_A.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_N.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_auto.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_copy.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_slow.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_bmp.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_clipboard.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_egl.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_fillrect.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_pixels.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_rect.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_rotate.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_stb.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_stretch.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_surface.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_video.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_video_unsupported.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_vulkan_utils.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_yuv.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/video/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_RLEaccel_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_auto.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_copy.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_blit_slow.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_clipboard_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_egl_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_pixels_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_rect_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_rect_impl.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_rotate.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_stb_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_surface_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_sysvideo.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_video_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_video_unsupported.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_vulkan_internal.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/SDL_yuv_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/miniz.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/stb_image.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/video/dummy/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/video/dummy/SDL_nullevents.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/dummy/SDL_nullframebuffer.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/dummy/SDL_nullvideo.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/video/dummy/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/video/dummy/SDL_nullevents_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/dummy/SDL_nullframebuffer_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/dummy/SDL_nullvideo.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/video/offscreen/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenevents.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/video/offscreen/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenevents_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer_c.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/video/x11/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11clipboard.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11dyn.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11events.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11framebuffer.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11keyboard.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11messagebox.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11modes.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11mouse.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11opengl.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11opengles.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11pen.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11settings.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11shape.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11toolkit.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11touch.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11video.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11vulkan.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11window.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11xfixes.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11xinput2.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11xsync.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/SDL_x11xtest.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/edid-parse.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/x11/xsettings-client.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.c",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.c"
+			]
+		},
+		{
+			"expression" : "/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx_func.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse_func.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h",
+				"/home/jahin/Game Development/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std_func.h"
+			]
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeSystem.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.3.0/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.3.0/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.3.0/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCCompilerABI.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.3.0/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.3.0/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"path" : "vendored/SDL/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckLanguage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckStructHasMember.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/macros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/sdlchecks.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/sdlcommands.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/sdlcompilers.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/sdlcpu.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/sdlmanpages.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/sdlplatform.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/GetGitRevisionDescription.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/3rdparty.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/PreseedMSVCCache.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/PreseedEmscriptenCache.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/PreseedHaikuCache.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/PreseedNokiaNGageCache.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/PreseedDOSCache.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindALSA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindX11.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/FindLibUSB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "vendored/SDL/include/build_config/SDL_build_config.h.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "vendored/SDL/.git/HEAD"
+		},
+		{
+			"path" : "vendored/SDL/cmake/GetGitRevisionDescription.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/CMakeFiles/git-data/grabRef.cmake"
+		},
+		{
+			"path" : "vendored/SDL/.git/refs/heads/main"
+		},
+		{
+			"path" : "vendored/SDL/include/build_config/SDL_revision.h.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "vendored/SDL/cmake/SDL3Config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/CMakeFiles/SDL_build_config.h.intermediate"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/jahin/Game Development/build",
+		"source" : "/home/jahin/Game Development"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}
