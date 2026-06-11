@@ -7,34 +7,57 @@ using namespace std;
 static SDL_Window *window = NULL;
 static SDL_Renderer *renderer = NULL;
 
-SDL_FRect rec;
-SDL_FRect slots[5];
-bool grabbed = false;
+int width = 800;
+int height = 600;
+
+const int CHUNK_HEIGHT = height;
+const int CHUNK_WIDTH = width;
+
+float cameraX = 0.0f;
+float cameraY = 0.0f;
+
+const float cameraSpeed = 5.0f;
+
+struct ChunkCoord {
+    int x,y;
+    bool operator<(const ChunkCoord& other) const {
+        if (x != other.x) return x < other.x;
+        return y < other.y;
+    }
+};
+
+struct Chunk {
+    vector<SDL_FRect> trees;
+};
+
+map<ChunkCoord, Chunk> chunkCache;
+
+Chunk generateChunk(int chunkX, int chunkY) {
+    Chunk newChunk;
+
+    // Use a hash combined of chunkX and chunkY as a seed
+    // This ensures chunk (1,5) always generates the exact same trees
+    std::mt19937 gen(chunkX * 49321 + chunkY * 96174); 
+    std::uniform_int_distribution<> disX(0, CHUNK_WIDTH - 50);
+    std::uniform_int_distribution<> disY(0, CHUNK_HEIGHT - 50);
+    std::uniform_int_distribution<> disCount(5, 15); // 5 to 15 trees per chunk
+
+    int treeCount = disCount(gen);
+    for (int i = 0; i < treeCount; i++) {
+        SDL_FRect tree;
+        // Store coordinates relative to the world
+        tree.x = (chunkX * CHUNK_WIDTH) + disX(gen);
+        tree.y = (chunkY * CHUNK_HEIGHT) + disY(gen);
+        tree.w = 50;
+        tree.h = 50;
+        newChunk.trees.push_back(tree);
+    }
+    return newChunk;
+}
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 {
-
-    rec.w = 50;
-    rec.h = 50;
-
-    rec.x = 10;
-    rec.y = 10;
-
-    slots[0].x = 740;
-    slots[0].y = 10;
-    for (int i = 0; i < 5; i++)
-    {
-        slots[i].w = 50;
-        slots[i].h = 50;
-
-        if (i > 0)
-        {
-            slots[i].x = slots[i - 1].x - 10 - slots[0].w;
-            slots[i].y = 10;
-        }
-    }
-
-    if (!SDL_CreateWindowAndRenderer("Hello World", 800, 600, SDL_WINDOW_RESIZABLE, &window, &renderer))
+    if (!SDL_CreateWindowAndRenderer("Hello World", width, height, SDL_WINDOW_RESIZABLE, &window, &renderer))
     {
         SDL_Log("Couldn't create window and renderer: %s", SDL_GetError());
         return SDL_APP_FAILURE;
@@ -54,55 +77,64 @@ SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event)
 SDL_AppResult SDL_AppIterate(void *appstate)
 {
     SDL_PumpEvents();
-    float mouseX, mouseY;
-    SDL_MouseButtonFlags buttons = SDL_GetMouseState(&mouseX, &mouseY);
 
-    // Debug Mouse Position
-    // cout << mouseX << ' ' << mouseY << endl;
+    const bool *key_states = SDL_GetKeyboardState(NULL);
 
-    const Uint8 *keyPress = (const Uint8 *)SDL_GetKeyboardState(NULL);
-
-    static Uint64 previousTime = 0;
-    Uint64 currentTime = SDL_GetTicks();
-    float deltaTime = (currentTime - previousTime) / 1000.0f;
-    previousTime = currentTime;
-
-    if (mouseX <= rec.x + rec.w && mouseX >= rec.x && mouseY <= rec.y + rec.h && mouseY >= rec.y && buttons)
-    {
-        grabbed = true;
+    if (key_states[SDL_SCANCODE_A]){
+        cameraX -= cameraSpeed;
+    }
+    if (key_states[SDL_SCANCODE_W]){
+        cameraY -= cameraSpeed;
+    }
+    if (key_states[SDL_SCANCODE_D]){
+        cameraX += cameraSpeed;
+    }
+    if (key_states[SDL_SCANCODE_S]){
+        cameraY += cameraSpeed;
     }
 
-    if (!buttons)
-        grabbed = false;
-
-    if (!grabbed)
-    {
-        for (auto &slot : slots)
-        {
-            if (rec.x + rec.w >= slot.x && rec.y + rec.h >= slot.y && rec.x <= slot.x + slot.w && rec.y <= slot.y + slot.h)
-            {
-                rec.x = slot.x;
-                rec.y = slot.y;
-            }
-        }
-    }
-
-    if (grabbed && buttons & SDL_BUTTON_MASK(SDL_BUTTON_LEFT))
-    {
-        float t = 1.0f * deltaTime;
-
-        rec.x = mouseX - rec.w / 2;
-        rec.y = mouseY - rec.h / 2;
-    }
+    int currentChunkX = (int)floor((cameraX + width / 2.0f) / CHUNK_WIDTH);
+    int currentChunkY = (int)floor((cameraY + height / 2.0f) / CHUNK_HEIGHT);
 
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
     SDL_RenderClear(renderer);
 
-    SDL_SetRenderDrawColor(renderer, 255, 0, 0, SDL_ALPHA_OPAQUE);
-    SDL_RenderFillRect(renderer, &rec);
+    SDL_SetRenderDrawColor(renderer, 34, 139, 34, SDL_ALPHA_OPAQUE);
 
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
-    SDL_RenderRects(renderer, slots, 5);
+    vector<SDL_FRect> visibleTrees;
+
+    for (int xOffset = -1; xOffset <= 1; xOffset++) {
+        for (int yOffset = -1; yOffset <= 1; yOffset++) {
+            int targetChunkX = currentChunkX + xOffset;
+            int targetChunkY = currentChunkY + yOffset;
+            ChunkCoord coord = {targetChunkX, targetChunkY};
+
+            // If chunk hasn't been generated yet, build it!
+            if (chunkCache.find(coord) == chunkCache.end()) {
+                chunkCache[coord] = generateChunk(targetChunkX, targetChunkY);
+            }
+
+            // 3. Collect and translate tree coordinates to screen space
+            const Chunk& activeChunk = chunkCache[coord];
+            for (const auto& tree : activeChunk.trees) {
+                float screenX = tree.x - cameraX;
+                float screenY = tree.y - cameraY;
+
+                // Only render if it sits on our screen space
+                if (screenX >= -50 && screenX <= width && screenY >= -50 && screenY <= height) {
+                    visibleTrees.push_back({screenX, screenY, tree.w, tree.h});
+                }
+            }
+        }
+    }
+
+    if (!visibleTrees.empty()) {
+        SDL_RenderFillRects(renderer, visibleTrees.data(), visibleTrees.size());
+    }
+
+    if (chunkCache.size() > 100){
+        chunkCache.clear();
+    }
 
     SDL_RenderPresent(renderer);
 
